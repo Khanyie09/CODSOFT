@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(back.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+
+}
+
+
+.cycle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#inputBox {
+    width: 100%;
+    font-size: 2em;
+    text-align: right;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid wheat;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input[type="button"] {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px #bbb;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:active {
+    background-color: wheat;
+    box-shadow: 0 1px whitesmoke;
+    transform: translateY(1px);
+}
+
+input[type="button"]:nth-child(4n) {
+    background-color: purple;
+    color: white;
+}
+.container {
+    background-color: blueviolet;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(62, 53, 53, 0.1);
+    
+}
+
+input[type="button"]:nth-child(4n):active {
+    background-color: mediumorchid;
+}
+
+input[type="button"]:last-child:active {
+    background-color: #94a045;
+}
+.Insert {
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type="button"]:last-child {
+    grid-column: span 2;
+    background-color: mediumpurple;
+    color: white;
+}
+.footer{
+    background-color: mediumpurple;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapics.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Dark\ blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+.back p{
+    text-align: center;
+    transform: translateY(25vh);
+    text-indent: 20px;
+    max-width: 900px; /* Adjust the size as needed */
+    text-align: justify
+
+
+
+}
+#logo{
+    float:left;
+
+}
+.navbar li {
+    display:inline;
+    color: mediumpurple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    font-size: larger;
+  }
+ 
+.navbar ul li:hover{
+    background-color: #eb208945;
+    transition: 0.5s ease;
+}
+img{
+    float: left;
+    margin-right: 15px;
+
+}
+#skills {
+    padding: 10px;
+
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.skill-arc {
+    flex: 1 1 20%; /* Adjust the width of each skill item */
+    margin: 5px;
+    text-align: center;
+    background-color: mediumpurple;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.skil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 900px; /* Adjust the size as needed */
+    text-align: justify
+
+}
+.skil-arcticle{
+    flex: 1 1 20%;
+    margin: 5px;
+    text-align: center;
+    background-color: mediumpurple;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+.button{
+        text-align: center;
+        background-color: mediumorchid;
+        color:purple;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding: 13px 25px;
+        text-decoration: none;
+}
+
+.button:hover{
+    background-color: midnightblue;
+    transition: 0.8s ease;
+}
+.footer{
+    background-color: mediumorchid;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ h1{
+    font-size:x-large;
+}
+.navbar a{
+    text-decoration: none;
+}
+
